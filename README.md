@@ -1,11 +1,12 @@
-#Date 25-12-2024
+##Date 25-12-2024
 
-**What is Unix?
-**
+**What is Unix?**
+
   Unix is an operating system developed in 1969 by at bell labs.
   Unix is a multi-user,multi process operating system
 
 **Unix Architecture**
+
 User--
 shell--Command interpreter and acts as an interface between user and kernel.It reads the user commands and interprets them as request to excute programe.Shell is also programming languagage.
 kernel--kernel is set of layers ,the OS is commonly called Kernel,kernel consist of various subsystems likefile subsystem,device drivers,process subsystem,memory manager etc
