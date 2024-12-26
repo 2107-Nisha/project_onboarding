@@ -17,8 +17,13 @@ Hardware
 
 **Boot Process**
 • The system BIOS checks the system and launches the first stage boot loader on the MBR of the primary hard disk.
+
 • The first stage boot loader launches the second stage boot loader from the /boot/ partition.
+
 • The kernel is loaded into memory, which in turn loads any necessary modules and mounts the root partition read-only.
+
 • The kernel hands control of the boot process to the /sbin/init program
+
 • The /sbin/init program loads all services and user-space tools, and mounts all partitions listed in /etc/fstab.
+
 • The user is presented with a login prompt for the freshly booted Linux system
