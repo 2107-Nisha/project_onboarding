@@ -8,8 +8,11 @@
 **Unix Architecture**
 
 User--
+
 shell--Command interpreter and acts as an interface between user and kernel.It reads the user commands and interprets them as request to excute programe.Shell is also programming languagage.
+
 kernel--kernel is set of layers ,the OS is commonly called Kernel,kernel consist of various subsystems likefile subsystem,device drivers,process subsystem,memory manager etc
+
 Hardware
 
 **Boot Process**
